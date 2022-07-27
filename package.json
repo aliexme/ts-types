@@ -1,6 +1,6 @@
 {
   "name": "@aliexme/ts-common-utils",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Common TypeScript utility types",
   "homepage": "https://github.com/aliexme/ts-common-utils",
   "repository": "git@github.com:aliexme/ts-common-utils.git",
