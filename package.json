@@ -1,0 +1,30 @@
+{
+  "name": "@aliexme/ts-common-utils",
+  "version": "0.0.0",
+  "description": "Common TypeScript utility types",
+  "homepage": "https://github.com/aliexme/ts-common-utils",
+  "repository": "git@github.com:aliexme/ts-common-utils.git",
+  "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "main": "index.js",
+  "typings": "index.d.ts",
+  "scripts": {
+    "ts:check": "tsc --noEmit",
+    "ts:compile": "tsc -p ./tsconfig.lib.json",
+    "lint:check": "eslint --ext .js,.ts --ignore-path .gitignore --cache ./",
+    "lint:fix": "yarn lint:check --fix",
+    "prepare": "yarn ts:compile"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0",
+    "eslint-plugin-import": "^2.26.0",
+    "typescript": "^4.7.4"
+  }
+}

@@ -1,2 +1,3 @@
-# ts-common-utils
-Common TypeScript utilities
+# @aliexme/ts-common-utils
+
+Common TypeScript utility types
