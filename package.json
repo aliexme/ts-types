@@ -1,6 +1,6 @@
 {
   "name": "@aliexme/ts-common-utils",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Common TypeScript utility types",
   "homepage": "https://github.com/aliexme/ts-common-utils",
   "repository": "git@github.com:aliexme/ts-common-utils.git",
@@ -9,7 +9,9 @@
   "private": false,
   "main": "index.d.ts",
   "typings": "index.d.ts",
-  "files": ["index.d.ts"],
+  "files": [
+    "index.d.ts"
+  ],
   "scripts": {
     "ts:check": "tsc --noEmit",
     "lint:check": "eslint --ext .js,.ts --ignore-path .gitignore --cache ./",
