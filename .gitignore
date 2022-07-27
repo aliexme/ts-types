@@ -6,15 +6,7 @@ node_modules
 yarn-error.log
 
 # Build
-lib
-*.js
-*.js.map
-*.d.ts
 *.tgz
-
-# Tests
-coverage
-!jest.config.js
 
 # ESLint
 !.eslintrc.js
