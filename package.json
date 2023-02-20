@@ -1,24 +1,27 @@
 {
-  "name": "@aliexme/ts-common-utils",
+  "name": "@aliexme/ts-types",
   "version": "0.1.0",
   "description": "Common TypeScript utility types",
-  "homepage": "https://github.com/aliexme/ts-common-utils",
-  "repository": "git@github.com:aliexme/ts-common-utils.git",
-  "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
-  "license": "MIT",
   "private": false,
+  "author": "Alexander Smirnov <al.smirnov996@gmail.com>",
+  "homepage": "https://github.com/aliexme/ts-types",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aliexme/ts-types"
+  },
+  "license": "MIT",
   "main": "index.d.ts",
   "typings": "index.d.ts",
   "files": [
     "index.d.ts"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "ts:check": "tsc --noEmit",
     "lint:check": "eslint --ext .js,.ts --ignore-path .gitignore --cache ./",
     "lint:fix": "yarn lint:check --fix"
-  },
-  "publishConfig": {
-    "access": "public"
   },
   "dependencies": {},
   "devDependencies": {
