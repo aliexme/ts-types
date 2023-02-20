@@ -19,16 +19,20 @@
     "access": "public"
   },
   "scripts": {
+    "prepare": "husky install",
     "ts:check": "tsc --noEmit",
-    "lint:check": "eslint --ext .js,.ts --ignore-path .gitignore --cache ./",
+    "lint:check": "eslint --ext .js,.mjs,.ts --ignore-path .gitignore --cache ./",
     "lint:fix": "yarn lint:check --fix"
   },
   "dependencies": {},
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.31.0",
-    "@typescript-eslint/parser": "^5.31.0",
-    "eslint": "^8.20.0",
-    "eslint-plugin-import": "^2.26.0",
-    "typescript": "^4.7.4"
+    "@aliexme/eslint-config": "^0.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^5.52.0",
+    "eslint": "^8.34.0",
+    "eslint-plugin-import": "^2.27.5",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.1.2",
+    "typescript": "^4.9.5"
   }
 }
