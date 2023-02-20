@@ -9,3 +9,5 @@ export type RequiredProp<T, K extends keyof T> = Omit<T, K> & {
 }
 
 export type Override<T, U> = Omit<T, keyof T & keyof U> & U
+
+export type ValueOf<T> = T[keyof T]
